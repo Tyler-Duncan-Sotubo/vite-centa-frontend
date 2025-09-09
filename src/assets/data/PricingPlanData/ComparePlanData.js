@@ -1,0 +1,118 @@
+// Pricing plan comparison (keep the same keys)
+export const ComparePlanData = [
+  {
+    feature: "Unified Workforce Directory",
+    basic: "Basic",
+    advances: "Advanced",
+    unlimited: "Unlimited",
+  },
+  {
+    feature: "Employee Self-Service (ESS)",
+    basic: "✓",
+    advances: "✓",
+    unlimited: "✓",
+  },
+  {
+    feature: "Unlimited Payroll Runs",
+    basic: "✓",
+    advances: "✓",
+    unlimited: "✓",
+  },
+  { feature: "Direct Deposit", basic: "✓", advances: "✓", unlimited: "✓" },
+  {
+    feature: "Tax Calculations & Filings",
+    basic: "✓",
+    advances: "Automated",
+    unlimited: "Automated + Multi-entity",
+  },
+  {
+    feature: "Leave Management",
+    basic: "✓",
+    advances: "✓",
+    unlimited: "✓ (Advanced policies)",
+  },
+  {
+    feature: "Attendance / Shift Scheduling",
+    basic: "✓",
+    advances: "✓ (Rotas)",
+    unlimited: "✓ (Rotas + Geo-fence)",
+  },
+  {
+    feature: "Onboarding Workflows",
+    basic: "Templates",
+    advances: "Customizable",
+    unlimited: "Advanced + Approvals",
+  },
+  {
+    feature: "Document Storage (HR Files)",
+    basic: "Up to 5 GB",
+    advances: "50 GB",
+    unlimited: "Unlimited",
+  },
+  {
+    feature: "Performance Management",
+    basic: "-",
+    advances: "Goals & Reviews",
+    unlimited: "Goals, 360°, OKRs",
+  },
+  {
+    feature: "Expenses",
+    basic: "-",
+    advances: "✓",
+    unlimited: "✓ + Multi-level approvals",
+  },
+  {
+    feature: "Benefits & Asset Tracking",
+    basic: "-",
+    advances: "✓",
+    unlimited: "✓ (Advanced)",
+  },
+  {
+    feature: "HR Analytics Dashboard",
+    basic: "Basic",
+    advances: "Customizable",
+    unlimited: "Advanced + Export",
+  },
+  {
+    feature: "API & Integrations",
+    basic: "Standard",
+    advances: "Extended",
+    unlimited: "Custom / Private APIs",
+  },
+  {
+    feature: "Google Workspace / Microsoft 365",
+    basic: "✓",
+    advances: "✓",
+    unlimited: "✓",
+  },
+  {
+    feature: "Slack / Teams Notifications",
+    basic: "✓",
+    advances: "✓",
+    unlimited: "✓",
+  },
+  {
+    feature: "SSO (Okta, Azure AD)",
+    basic: "-",
+    advances: "-",
+    unlimited: "✓",
+  },
+  {
+    feature: "Role-Based Access & Audit Logs",
+    basic: "Basic RBAC",
+    advances: "RBAC + Logs",
+    unlimited: "Granular RBAC + Full Logs",
+  },
+  {
+    feature: "Data Residency & Security",
+    basic: "Standard",
+    advances: "Enhanced",
+    unlimited: "Advanced + DPA",
+  },
+  {
+    feature: "Support",
+    basic: "Email",
+    advances: "Priority Email",
+    unlimited: "Priority + Dedicated Manager",
+  },
+];
