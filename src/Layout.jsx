@@ -6,13 +6,13 @@ const Layout = ({ pageTitle, scrollVariant, children }) => {
     <HelmetProvider>
       <Helmet>
         {/* title tag */}
-        {pageTitle ? <title>{pageTitle}</title> : <title>Staco</title>}
+        {pageTitle ? <title>{pageTitle}</title> : <title>Centa HR</title>}
 
         {/* favicon included here  */}
-        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
 
         {/* apple touch icon included here */}
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
         {/* All font family included here */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -67,7 +67,7 @@ const Data = [
     menuList: [
       {
         title: "About",
-        url: "/about-us",
+        url: "#",
       },
       {
         title: "What we do",

@@ -10,7 +10,7 @@ import FeatureTeam from "../Sections/Newsletter/FeatureTeam/FeatureTeam";
 
 const LeaveManagement = () => {
   return (
-    <Layout pageTitle={"CentaHR - LeaveManagement"}>
+    <Layout pageTitle={"CentaHR - Leave Management"}>
       <Header variant="v1" />
       <LeaveBanner />
       <FeatureTeam />

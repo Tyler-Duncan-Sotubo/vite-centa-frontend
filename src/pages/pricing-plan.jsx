@@ -10,7 +10,7 @@ import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeetin
 
 const PricingPlan = () => {
   return (
-    <Layout pageTitle="Staco - Pricing Plan">
+    <Layout pageTitle="Centa HR - Pricing Plan">
       <div className="bg-gray">
         <Header variant="main-header" />
         <PricingPlanBreadcumbs />

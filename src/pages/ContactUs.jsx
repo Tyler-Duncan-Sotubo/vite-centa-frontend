@@ -7,7 +7,7 @@ import ContactLocation from "../Sections/ContactUs/ContactLocation/ContactLocati
 
 const ContactUs = () => {
   return (
-    <Layout pageTitle="Staco - Contact Us">
+    <Layout pageTitle="Centa HR - Contact Us">
       <Header variant="main-header" />
       <Breadcumbs title="Contact Us" />
       <SayHello />

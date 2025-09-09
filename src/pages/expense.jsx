@@ -9,7 +9,7 @@ import ExpenseFaq from "../Sections/Expense/ExpenseFaq/ExpenseFaq";
 
 const Expense = () => {
   return (
-    <Layout pageTitle={"Staco - Sass Landing"}>
+    <Layout pageTitle={"Centa HR - Expense"}>
       <Header variant="v1" />
       <ExpenseBanner />
       <ExpenseCards />

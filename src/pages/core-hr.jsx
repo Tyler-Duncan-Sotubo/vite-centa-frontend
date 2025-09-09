@@ -12,7 +12,7 @@ import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeetin
 
 const CoreHR = () => {
   return (
-    <Layout pageTitle="Core HR">
+    <Layout pageTitle="Centa HR - Core">
       <div className="body-container">
         <Header variant="v1" />
         <HomeBanner />

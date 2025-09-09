@@ -9,7 +9,7 @@ import CorporateValues from "../Sections/Corporate/CorporateValues/CorporateValu
 
 const Performance = () => {
   return (
-    <Layout pageTitle={"Staco - Sass Landing"}>
+    <Layout pageTitle={"Centa HR - Performance"}>
       <Header variant="v1" />
       <PerformanceBanner />
       <CorporateValues />

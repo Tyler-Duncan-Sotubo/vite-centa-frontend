@@ -7,7 +7,7 @@ import BlogList from "../Sections/Blog/BlogList/BlogList";
 
 const Blog = () => {
   return (
-    <Layout pageTitle="Staco - Blog">
+    <Layout pageTitle="Centa HR - Blog">
       <div className="bg-gray">
         <Header variant="main-header" />
         <Breadcumbs title="Latest Blogs" />

@@ -12,7 +12,7 @@ import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeetin
 
 const SassLandingTwo = () => {
   return (
-    <Layout pageTitle={"Staco - Sass Landing Two"} scrollVariant={"sass"}>
+    <Layout pageTitle={"Centa HR - Home"} scrollVariant={"sass"}>
       <div className="sass-landing-body body-container">
         <Header variant={"sass"} />
         <SassTwoBanner />

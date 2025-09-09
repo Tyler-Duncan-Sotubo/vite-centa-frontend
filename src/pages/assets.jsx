@@ -8,7 +8,7 @@ import AssetTemplate from "../Sections/Assets/AssetsTemplate/AssetTemplate";
 
 const Assets = () => {
   return (
-    <Layout pageTitle={"Staco - Sass Landing"}>
+    <Layout pageTitle={"Centa HR - Assets"}>
       <Header variant="v1" />
       <AssetBanner />
       <AssetFeatures />

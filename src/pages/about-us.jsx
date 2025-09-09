@@ -11,7 +11,7 @@ import TestimonialsOne from "../Sections/Testimonials/TestimonialsOne";
 
 const AboutUs = () => {
   return (
-    <Layout pageTitle="Staco - About us">
+    <Layout pageTitle="Centa HR - About us">
       <Header variant="main-header" />
       <Breadcumbs title="About Us" />
       <PeopleUsing />
