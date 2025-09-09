@@ -13,7 +13,9 @@ const PeopleUsing = () => {
         <div className="row align-items-center">
           <div className="col-lg-5">
             <div className="customer-img">
-              <ScrollAnimate delay={200}><img src={CustomerImg} alt="customer-img" /></ScrollAnimate>
+              <ScrollAnimate delay={200}>
+                <img src={CustomerImg} alt="centahr-users" />
+              </ScrollAnimate>
             </div>
           </div>
           <div className="col-lg-7">
@@ -23,7 +25,7 @@ const PeopleUsing = () => {
                   {avatarImages.map((avatar, index) => (
                     <li key={index}>
                       <a href="#">
-                        <img src={avatar} alt={`user-img-${index}`} />
+                        <img src={avatar} alt={`user-${index}`} />
                       </a>
                     </li>
                   ))}
@@ -38,26 +40,27 @@ const PeopleUsing = () => {
                     <div className="section-title">
                       <h2 className="title mb-0">
                         People using
-                        <span className="marketing-badge">Starco</span> with full
-                        satisfaction
+                        <span className="marketing-badge">CentaHR</span>
+                        with complete confidence
                       </h2>
                     </div>
                   </TitleStyleWrapper>
                   <p>
-                    We use as filler text for layouts, non-readability is of great
-                    importancebut because those who do not know how to pursue
-                    pleasure.
+                    From recruitment to payroll, CentaHR brings every part of
+                    the employee journey into one seamless platform — helping
+                    teams hire smarter, manage people better, and ensure
+                    compliance.
                   </p>
                   <p>
-                    Consequences that are extremely painful. Nor again is there
-                    anyone who loves or pursues or desires to obtain. know how to
-                    pursue pleasure rationally encounter consequences that are
-                    extremely painful. Nor again is there anyone who loves.
+                    HR leaders and employees alike love the simplicity:
+                    automated onboarding, AI-powered recruitment, performance
+                    insights, leave and payroll management — all in a secure,
+                    centralized system.
                   </p>
-                  <a href="#" className="text-link">
-                    <span>View Case Studies</span>
+                  {/* <a href="#" className="text-link">
+                    <span>Explore Case Studies</span>
                     <GoArrowRight />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </ScrollAnimate>

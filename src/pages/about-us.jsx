@@ -1,13 +1,11 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import StartBuildingComponent from "./../Components/StartBuilding/StartBuildingComponent";
-import FooterTwo from "./../Sections/Footer/FooterTwo";
 import ParallaxComponent from "../Components/Peralax/ParallaxComponent";
 import Breadcumbs from "../Components/Breadcumbs/Breadcumbs";
 import PeopleUsing from "../Sections/AboutUs/PeopleUsing/PeopleUsing";
 import AboutUsContent from "../Sections/AboutUs/AboutUsContent/AboutUsContent";
-import Team from "../Sections/Team/Team";
-import TestimonialsOne from "../Sections/Testimonials/TestimonialsOne";
+import FooterThree from "../Sections/Footer/FooterThree";
+import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
 
 const AboutUs = () => {
   return (
@@ -17,10 +15,8 @@ const AboutUs = () => {
       <PeopleUsing />
       <ParallaxComponent />
       <AboutUsContent />
-      <TestimonialsOne />
-      <Team />
-      <StartBuildingComponent />
-      <FooterTwo />
+      <StartMeeting />
+      <FooterThree />
     </Layout>
   );
 };

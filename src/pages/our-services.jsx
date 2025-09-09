@@ -9,7 +9,7 @@ import CoreFeature from "../Sections/OurServices/CoreFeature/CoreFeature";
 
 const OurServices = () => {
   return (
-    <Layout pageTitle="Staco - Our Services">
+    <Layout pageTitle="Centa HR - Our Services">
       <Header variant="main-header" />
       <Breadcumbs title="Our Services" />
       <ServiceList />

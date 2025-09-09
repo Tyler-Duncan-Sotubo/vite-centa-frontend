@@ -5,48 +5,46 @@ import ParallaxBgImg from "../../assets/images/bg/vector-map.svg";
 import ScrollAnimate from "../ScrollAnimate";
 
 const ParallaxComponent = ({ parallaxTextClass }) => {
-  // counter up
   const sectionRef = useRef(null);
+  const didAnimateRef = useRef(false);
 
   useEffect(() => {
-    let isAnimated = 0;
-    function counterUp() {
-      if (isAnimated == 0) {
-        const counterItem = document.querySelectorAll(".counter");
-        counterItem.forEach((item) => {
-          var counterText = item.innerText;
-          item.innerText = "0";
-          const updateCounter = () => {
-            let dataTarget = +item.getAttribute("datatarget");
-            if (dataTarget > 999) {
-              dataTarget = dataTarget / 1000;
-            }
-            counterText = +item.innerText;
-            let increment = dataTarget / 1000;
-            if (counterText < dataTarget) {
-              item.innerText = `${Math.ceil(counterText + increment)}`;
-              setTimeout(updateCounter, 1);
-            }
-          };
-          updateCounter();
-        });
-      }
-    }
+    const el = sectionRef.current;
+    if (!el || didAnimateRef.current) return;
 
-    const handleScroll = () => {
-      if (!sectionRef.current) return;
-      const y = window.scrollY;
-      const x = sectionRef.current.offsetTop - 400;
-      if (y > x && y < x + window.innerHeight) {
-        counterUp();
-        isAnimated++;
-      } else {
-        isAnimated = 0;
-      }
+    const runCounters = () => {
+      const counters = el.querySelectorAll(".counter");
+      counters.forEach((item) => {
+        const targetAttr = item.getAttribute("datatarget");
+        const target = Number(targetAttr || item.textContent || 0);
+        const start = 0;
+        const duration = 1200; // ms
+        const startTime = performance.now();
+
+        const step = (now) => {
+          const progress = Math.min((now - startTime) / duration, 1);
+          const value = Math.floor(start + (target - start) * progress);
+          item.textContent = String(value);
+          if (progress < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+      });
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    // Animate once when section is in view
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          runCounters();
+          didAnimateRef.current = true;
+          io.disconnect();
+        }
+      },
+      { threshold: 0.25 }
+    );
+
+    io.observe(el);
+    return () => io.disconnect();
   }, []);
 
   return (
@@ -64,14 +62,16 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                 <ScrollAnimate delay={200}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
-                      <span className="counter" datatarget="200">
-                        200
+                      <span className="counter" datatarget="25">
+                        25
                       </span>
+                      +
                     </h2>
-                    <p>Countries Worldwide</p>
+                    <p>Industries Served</p>
                   </div>
                 </ScrollAnimate>
               </div>
+
               <div className="col-lg-4 col-md-4 md-mb-30">
                 <ScrollAnimate delay={230}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
@@ -81,10 +81,11 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                       </span>
                       K
                     </h2>
-                    <p>Registered User</p>
+                    <p>Employee Profiles Managed</p>
                   </div>
                 </ScrollAnimate>
               </div>
+
               <div className="col-lg-3 col-md-4">
                 <ScrollAnimate delay={260}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
@@ -94,7 +95,7 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                       </span>
                       K
                     </h2>
-                    <p>Small & Big Companies</p>
+                    <p>Payrolls Processed</p>
                   </div>
                 </ScrollAnimate>
               </div>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const AboutUsContentStyle = styled.section`
-  padding: 0;
+  padding: 0 0 100px 0;
   .about-feature-title {
     margin-bottom: 50px;
     h3 {

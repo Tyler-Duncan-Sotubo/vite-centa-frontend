@@ -89,7 +89,7 @@ h6 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .wt-400 {

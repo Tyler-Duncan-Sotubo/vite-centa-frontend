@@ -6,7 +6,7 @@ const Data = [
     title: "Our Mission",
     subtitle: "Company Mission",
     description:
-      "We use as filler text for layouts, non-readability is of great importancebut because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain. combined with a handful of model sentence structures, to generate.",
+      "To simplify and transform the employee journey by providing a secure, all-in-one HR and Payroll platform. We empower organizations to attract talent, manage people effectively, and ensure compliance while fostering responsibility and sustainability.",
     featerList: [
       {
         title: "Responsibility and Sustainability",
@@ -19,10 +19,10 @@ const Data = [
     ],
   },
   {
-    title: "Our Vission",
-    subtitle: "Company Vission",
+    title: "Our Vision",
+    subtitle: "Company Vision",
     description:
-      "We use as filler text for layouts, non-readability is of great importancebut because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain. combined with a handful of model sentence structures, to generate.",
+      "To be the most trusted HR technology partner across industries worldwide, enabling businesses to focus on growth while we handle the complexity of people operations with intelligence, automation, and care.",
     featerList: [
       {
         title: "Responsibility and Sustainability",
@@ -38,7 +38,7 @@ const Data = [
     title: "Our Goal",
     subtitle: "Company Goal",
     description:
-      "We use as filler text for layouts, non-readability is of great importancebut because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain. combined with a handful of model sentence structures, to generate.",
+      "To continuously innovate CentaHR so that organizations of all sizes can achieve efficiency, compliance, and employee satisfaction. Our goal is to reduce manual effort, improve decision-making with data insights, and build a future-ready workforce.",
     featerList: [
       {
         title: "Responsibility and Sustainability",
