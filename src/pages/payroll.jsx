@@ -6,8 +6,8 @@ import BusinessChoose from "../Sections/Business/BusinessChoose/BusinessChoose";
 import BusinessRating from "../Sections/Business/BusinessRating/BusinessRating";
 import BusinessFaq from "../Sections/Business/BusinessFaq/BusinessFaq";
 import SassVideo from "../Sections/SassLandingTwo/SassVideo/SassVideo";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const Payroll = () => {
   return (
@@ -19,8 +19,8 @@ const Payroll = () => {
       <BusinessChoose />
       <BusinessRating />
       <BusinessFaq />
-      <StartMeeting />
-      <FooterThree />
+      <GetApp />
+      <FooterOne />
     </Layout>
   );
 };

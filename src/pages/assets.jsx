@@ -1,10 +1,10 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
 import AssetBanner from "../Sections/Assets/AssetBanner/AssetBanner";
 import AssetFeatures from "../Sections/Assets/AssetFeatures/AssetFetures";
 import AssetTemplate from "../Sections/Assets/AssetsTemplate/AssetTemplate";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const Assets = () => {
   return (
@@ -13,8 +13,8 @@ const Assets = () => {
       <AssetBanner />
       <AssetFeatures />
       <AssetTemplate />
-      <StartMeeting />
-      <FooterThree />
+      <GetApp />
+      <FooterOne />
     </Layout>
   );
 };

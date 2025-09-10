@@ -1,11 +1,11 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
 import Breadcumbs from "../Components/Breadcumbs/Breadcumbs";
 import ServiceList from "../Sections/OurServices/ServiceList/ServiceList";
 import OurSkil from "../Sections/OurServices/OurSkil/OurSkil";
 import CoreFeature from "../Sections/OurServices/CoreFeature/CoreFeature";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const OurServices = () => {
   return (
@@ -16,8 +16,8 @@ const OurServices = () => {
       <OurSkil />
       <CoreFeature />
       <div className="bg-white">
-        <StartMeeting />
-        <FooterThree />
+        <GetApp />
+        <FooterOne />
       </div>
     </Layout>
   );

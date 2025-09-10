@@ -1,8 +1,8 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import StartBuildingComponent from "../Components/StartBuilding/StartBuildingComponent";
-import FooterTwo from "../Sections/Footer/FooterTwo";
 import BlogDetailsSection from "../Sections/Blog/BlogDetails/BlogDetails";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const BlogDetails = () => {
   return (
@@ -10,9 +10,9 @@ const BlogDetails = () => {
       <div className="bg-gray">
         <Header variant="main-header" />
         <BlogDetailsSection />
-        <StartBuildingComponent />
-        <FooterTwo />
       </div>
+      <GetApp />
+      <FooterOne />
     </Layout>
   );
 };

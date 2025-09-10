@@ -1,85 +1,105 @@
-import React from 'react'
 import FooterStyleWrapper from "./Footer.style";
+import Data from "../../assets/data/footer/footer";
 import FooterSocialLinks from "../../assets/data/footer/footerSocialLinks";
+import FooterImg from "../../assets/images/footer/footer-3.svg";
 import FooterLogo from "../../assets/images/logo/logo.svg";
-import FooterOneMenuList from "./FooterOneMenuList";
-import FooterContractCard from "../../Components/FooterContractCard/FooterContractCard";
-import FooterNewsletter from '../../Components/FooterNewsletter/FooterNewsletter';
 
 const FooterOne = () => {
   return (
-    <FooterStyleWrapper className="footer-section home-footer">
-      <div className="footer-inner">
-        {/* Footer top start */}
-        <div className="footer-top footer-one-top">
-          <div className="container">
-            <div className="row justify-content-between">
-              <div className="col-lg-4 col-md-8">
-                <div className="footer-card">
-                  <div className="footer-info">
-                    <a href="/" className="footer-logo">
-                      <img src={FooterLogo} alt="footer-logo" />
-                    </a>
-                    <p>
-                      Staco is the dedicated platform for performance management
-                      that helps to grow your startup quickly
-                    </p>
-                  </div>
-
-                  <FooterContractCard/>
-                  <FooterNewsletter/>
-
-                  <div className="footer-follow">
-                    <ul className="social-link dark footer-one-social-link">
-                      {FooterSocialLinks?.map((item, i) => (
-                        <li key={i}>
-                          <a href={item.url} target="_blank">
-                            <span className='social-icon'>
-                              <img src={item.img} alt={item.title} />
-                              <img src={item.img} alt={item.title} />
-                            </span>
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
+    <FooterStyleWrapper className="footer-section v2">
+      {/* Footer top start */}
+      <div className="footer-top">
+        <div className="container">
+          <div className="row justify-content-between">
+            <div className="col-lg-3 col-md-6">
+              <div className="footer-img">
+                <img src={FooterImg} alt="footer-img" />
               </div>
-              <div className="col-lg-8">
-                <FooterOneMenuList/>
+            </div>
+            <div className="col-lg-8">
+              <div className="row">
+                {Data?.map((item, i) => (
+                  <div key={i} className="col-md-3 col-6">
+                    <aside className="footer-widget">
+                      <div className="widget-title">
+                        <h6>{item.title}</h6>
+                      </div>
+                      <div className="widget-body">
+                        <ul className="widget-list">
+                          {item.menuList?.map((menuItem, mid) => (
+                            <li key={mid}>
+                              <a href={menuItem.url}>
+                                {menuItem.title}
+                                {menuItem.badgeTitle && (
+                                  <span className="template-badge">Hiring</span>
+                                )}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </aside>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
-        {/* Footer top end */}
-
-        {/* Footer bottom start */}
-        <div className="footer-bottom">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-5 order-md-1 order-2">
-                <div className="footer-copyright">
-                  <p className="mb-0">2025 <a href="#">Staco</a>. All rights reserved.</p>
-                </div>
-              </div>
-              <div className="col-md-7 order-md-2 order-1">
-                <ul className="privacy-menu">
-                  <li>
-                    <a href="/terms">Terms and conditions</a>
-                  </li>
-                  <li>
-                    <a href="#">Cookies</a>
-                  </li>
-                  <li>
-                    <a href="/privacy-policy">Privacy policy</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Footer bottom end */}
       </div>
+      {/* Footer top end */}
+      {/* Footer bottom start */}
+      <div className="footer-bottom staco-footer-6">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-4 col-md-3 col-sm-6">
+              <a href="/" className="footer-logo">
+                <img src={FooterLogo} alt="footer-logo" />
+              </a>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-6">
+              <ul className="social-link">
+                {FooterSocialLinks?.map((item, i) => (
+                  <li key={i}>
+                    <a href={item.url} target="_blank" rel="noreferrer">
+                      <span className="social-icon">
+                        <img src={item.imgV2} alt={item.title} />
+                        <img src={item.imgV2} alt={item.title} />
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="col-lg-4 col-md-5">
+              <div className="footer-copyright">
+                <p>
+                  2025 <a href="#">Centa HR</a>. All rights reserved.
+                </p>
+              </div>
+            </div>
+            <div>
+              <ul className="privacy-menu">
+                <li>
+                  <a href="/terms" className="text-black">
+                    Terms and conditions
+                  </a>
+                </li>
+                <li>
+                  <a href="/data-protection" className="text-black">
+                    Data Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/privacy-policy" className="text-black">
+                    Privacy policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Footer bottom end */}
     </FooterStyleWrapper>
   );
 };

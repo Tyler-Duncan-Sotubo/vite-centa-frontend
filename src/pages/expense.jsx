@@ -1,11 +1,11 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
 import ExpenseBanner from "../Sections/Expense/ExpenseBanner/ExpenseBanner";
 import FinanceBenefits from "../Sections/Finance/FinanceBenefits/FinanceBenefits";
 import ExpenseCards from "../Sections/Expense/ExpenseCards/ExpenseCards";
 import ExpenseFaq from "../Sections/Expense/ExpenseFaq/ExpenseFaq";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const Expense = () => {
   return (
@@ -15,8 +15,8 @@ const Expense = () => {
       <ExpenseCards />
       <FinanceBenefits />
       <ExpenseFaq />
-      <StartMeeting />
-      <FooterThree />
+      <GetApp />
+      <FooterOne />
     </Layout>
   );
 };

@@ -8,7 +8,7 @@ const TermsAndPrivacy = ({ title, data, children }) => {
     <TermsAndPrivacyStyleWrapper>
       <div className="container">
         <ScrollAnimate delay={200}>
-          <p className="uppercase">Last updated: 28 March 2023</p>
+          <p className="uppercase">Last updated: 28 March 2025</p>
           {title && <h1>{title}</h1>}
         </ScrollAnimate>
 

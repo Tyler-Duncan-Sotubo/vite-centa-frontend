@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import SassLandingTwo from "./pages/sass-landing-two";
+import Home from "./pages/Home";
 import Terms from "./pages/terms";
 import PrivacyPolicy from "./pages/privacy-policy";
 import Blog from "./pages/blog";
@@ -20,15 +20,14 @@ import Assets from "./pages/assets";
 import Expense from "./pages/expense";
 import Performance from "./pages/performance";
 import LeaveManagement from "./pages/leave-management";
-import CentaAI from "./pages/centa-ai";
+import DataProtection from "./pages/data-protection";
 
 const App = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<SassLandingTwo />} />
-        <Route path="/sass-landing-two" element={<SassLandingTwo />} />
+        <Route path="/" element={<Home />} />
         <Route path="/core-hr" element={<CoreHR />} />
         <Route path="/payroll" element={<Payroll />} />
         <Route path="/attendance" element={<Attendance />} />
@@ -41,13 +40,13 @@ const App = () => {
         <Route path="/recruitment" element={<Recruitment />} />
         <Route path="/performance" element={<Performance />} />
         <Route path="/leave-management" element={<LeaveManagement />} />
-        <Route path="/centa-ai" element={<CentaAI />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/why-us" element={<WhyUs />} />
         <Route path="/our-services" element={<OurServices />} />
         <Route path="/pricing-plan" element={<PricingPlan />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/data-protection" element={<DataProtection />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/category/:cat" element={<Blog />} />
         <Route path="/blog/tag/:tag" element={<Blog />} />

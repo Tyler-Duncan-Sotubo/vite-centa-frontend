@@ -40,12 +40,17 @@ const PricingPlanCards = () => {
                     View plan features
                   </button>
                   <div className="best-pricing-card-body">
-                    <button className={`best-pricing-btn ${plan.btnClass}`}>
-                      {plan.btnText}
-                      <span className="icon">
-                        <img src={rightArrow} alt="icon" />
-                      </span>
-                    </button>
+                    <NavLink
+                      to="https://calendly.com/centapayroll/book-a-demo"
+                      target="_blank"
+                    >
+                      <button className={`best-pricing-btn ${plan.btnClass}`}>
+                        {plan.btnText}
+                        <span className="icon">
+                          <img src={rightArrow} alt="icon" />
+                        </span>
+                      </button>
+                    </NavLink>
                     <ul className="list">
                       {plan.features.map((feature, i) => (
                         <li key={i}>{feature}</li>

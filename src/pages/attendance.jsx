@@ -1,12 +1,12 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
 import CustomerServiceBanner from "../Sections/Banner/CustomerServiceBanner/CustomerServiceBanner";
-import BusinessTolls from "../Sections/CustomerService/BusinessTools/BusinessTools";
-import CustomerFeatures from "../Sections/CustomerService/CustomerFeatures/CustomerFeatures";
-import WhyChoose from "../Sections/CustomerService/WhyChoose/WhyChoose";
+import BusinessTolls from "../Sections/Attendance/BusinessTools/BusinessTools";
+import CustomerFeatures from "../Sections/Attendance/CustomerFeatures/CustomerFeatures";
+import WhyChoose from "../Sections/Attendance/WhyChoose/WhyChoose";
 import Integration from "../Components/Integration/Integration";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const Attendance = () => {
   return (
@@ -17,8 +17,8 @@ const Attendance = () => {
       <CustomerFeatures />
       <WhyChoose />
       <Integration />
-      <StartMeeting />
-      <FooterThree />
+      <GetApp />
+      <FooterOne />
     </Layout>
   );
 };

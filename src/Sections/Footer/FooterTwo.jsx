@@ -1,21 +1,12 @@
-import { useEffect } from "react";
 import FooterStyleWrapper from "./Footer.style";
-import Data from "../../assets/data/footer/footer";
 import FooterSocialLinks from "../../assets/data/footer/footerSocialLinks";
-import Venobox from "venobox/dist/venobox";
-
-import FooterImg from "../../assets/images/footer/footer-2.png";
-import FooterLogo from "../../assets/images/logo/logo-dark.svg";
+import Data from "../../assets/data/footer/footer";
+import FooterImg from "../../assets/images/footer/footer-3.svg";
+import FooterLogo from "../../assets/images/logo/logo.svg";
 
 const FooterTwo = () => {
-  useEffect(() => {
-    new Venobox({
-      selector: ".my-video-links",
-    });
-  }, []);
-
   return (
-    <FooterStyleWrapper className="footer-section v3">
+    <FooterStyleWrapper className="v7-footer-area">
       {/* Footer top start */}
       <div className="footer-top">
         <div className="container">
@@ -23,14 +14,6 @@ const FooterTwo = () => {
             <div className="col-lg-3 col-md-6">
               <div className="footer-img">
                 <img src={FooterImg} alt="footer-img" />
-                <a
-                  className="my-video-links"
-                  href="https://www.youtube.com/embed/_k8RsMr82zM?si=hvUQJcwkuRaEGC3n"
-                  data-autoplay="true"
-                  data-vbtype="video"
-                >
-                  <span className="iconify" data-icon="el:play" />
-                </a>
               </div>
             </div>
             <div className="col-lg-8">
@@ -65,7 +48,7 @@ const FooterTwo = () => {
       </div>
       {/* Footer top end */}
       {/* Footer bottom start */}
-      <div className="footer-bottom">
+      <div className="footer-bottom staco-footer-6">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-4 col-md-3 col-sm-6">
@@ -77,8 +60,8 @@ const FooterTwo = () => {
               <ul className="social-link">
                 {FooterSocialLinks?.map((item, i) => (
                   <li key={i}>
-                    <a href={item.url} target="_blank">
-                      <span className='social-icon'>
+                    <a href={item.url} target="_blank" rel="noreferrer">
+                      <span className="social-icon">
                         <img src={item.imgV2} alt={item.title} />
                         <img src={item.imgV2} alt={item.title} />
                       </span>
@@ -89,7 +72,9 @@ const FooterTwo = () => {
             </div>
             <div className="col-lg-4 col-md-5">
               <div className="footer-copyright">
-                <p className="mb-0">2025 <a href="#">Staco</a>. All rights reserved.</p>
+                <p>
+                  2025 <a href="#">Centa HR</a>. All rights reserved.
+                </p>
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ export const cardData = [
     title: "Seamless Recruitment & Onboarding",
     description:
       "Post jobs, screen candidates with AI, schedule interviews, and send digital offer letters. Onboard new hires smoothly with document collection and templates — all in one place.",
-    demoLink: "#",
+    demoLink: "https://calendly.com/centapayroll/book-a-demo",
     bgImageSrc: seamlessCardBg1,
     cardClass: "seamless-card1",
   },
@@ -21,7 +21,7 @@ export const cardData = [
     title: "Automated Payroll & Compliance",
     description:
       "Run error-free payroll with allowances, deductions, and statutory compliance handled automatically. Generate payslips instantly and integrate payments directly.",
-    demoLink: "#",
+    demoLink: "https://calendly.com/centapayroll/book-a-demo",
     bgImageSrc: seamlessCardBg2,
     cardClass: "seamless-card2",
   },

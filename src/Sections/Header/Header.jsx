@@ -5,6 +5,7 @@ import Data from "../../assets/data/header/headerHomeMenu";
 import MegaMenu from "./MegaMenu";
 import LanguageDropdown from "./dropdown/LanguageDropdown";
 import MobileMenu from "./mobileMenu/MobileMenu";
+import ResourceMenu from "./ResourceMenu";
 
 //logo images
 import LogoImg1 from "../../assets/images/logo/logo.svg";
@@ -277,6 +278,7 @@ const Header = ({ variant, ...props }) => {
 
                           {/* megamenu */}
                           {menuItem?.hasMegaMenu && <MegaMenu />}
+                          {menuItem?.isResourceMenu && <ResourceMenu />}
 
                           {menuItem.subMenus?.length > 0 && (
                             <div className="submenu-box">

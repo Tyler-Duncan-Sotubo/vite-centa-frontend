@@ -1,12 +1,12 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
 import LeaveBanner from "../Sections/Leave/LeaveBanner/LeaveBanner";
 import LeaveFaq from "../Sections/Leave/LeaveFaq/Leave";
 import SafePlatform from "../Sections/CryptoWalletTwo/SafePlatform/SafePlatform";
 import CryptoBalls from "../Sections/CryptoWalletTwo/CryptoBalls/CryptoBalls";
 import FeatureTeam from "../Sections/Newsletter/FeatureTeam/FeatureTeam";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const LeaveManagement = () => {
   return (
@@ -17,8 +17,8 @@ const LeaveManagement = () => {
       <CryptoBalls />
       <SafePlatform />
       <LeaveFaq />
-      <StartMeeting />
-      <FooterThree />
+      <GetApp />
+      <FooterOne />
     </Layout>
   );
 };

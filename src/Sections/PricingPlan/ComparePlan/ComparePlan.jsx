@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { ComparePlanData } from "../../../assets/data/PricingPlanData/ComparePlanData";
 import ComparePlanStyle from "./ComparePlan.style";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
+import { NavLink } from "react-router-dom";
 
 const ComparePlan = () => {
   const TableHeaderRef = useRef(null);
@@ -56,35 +57,48 @@ const ComparePlan = () => {
                     <li className="pricingPlanTablinks">
                       <h6>Essential</h6>
                       <span>₦1,000/employee</span>
-                      <button
-                        onClick={() =>
-                          console.log("Start Free Trial - Essential")
-                        }
+                      <NavLink
+                        to="https://calendly.com/centapayroll/book-a-demo"
+                        target="_blank"
                       >
-                        Start Free Trial
-                      </button>
+                        <button
+                          onClick={() =>
+                            console.log("Start Free Trial - Essential")
+                          }
+                        >
+                          Start Free Trial
+                        </button>
+                      </NavLink>
                     </li>
 
                     {/* Growth (maps to "advances") */}
                     <li className="pricingPlanTablinks">
                       <h6>Growth</h6>
                       <span> ₦1,200/employee</span>
-                      <button
-                        onClick={() => console.log("Get Started - Growth")}
+                      <NavLink
+                        to="https://calendly.com/centapayroll/book-a-demo"
+                        target="_blank"
                       >
-                        Get Started
-                      </button>
+                        <button>Get Started</button>
+                      </NavLink>
                     </li>
 
                     {/* Business (maps to "unlimited") */}
                     <li className="pricingPlanTablinks">
                       <h6>Business</h6>
                       <span>₦2,000/employee</span>
-                      <button
-                        onClick={() => console.log("Talk to Sales - Business")}
+                      <NavLink
+                        to="https://calendly.com/centapayroll/book-a-demo"
+                        target="_blank"
                       >
-                        Talk to Sales
-                      </button>
+                        <button
+                          onClick={() =>
+                            console.log("Talk to Sales - Business")
+                          }
+                        >
+                          Talk to Sales
+                        </button>
+                      </NavLink>
                     </li>
                   </ol>
                 </div>

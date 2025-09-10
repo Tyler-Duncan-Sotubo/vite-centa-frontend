@@ -79,7 +79,7 @@ const Data = [
       },
       {
         title: "Careers",
-        url: "#",
+        url: "https://careers.centahr.com/",
         badgeTitle: "Hiring",
       },
     ],

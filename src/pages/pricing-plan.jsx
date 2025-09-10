@@ -4,9 +4,9 @@ import PricingPlanCards from "../Sections/PricingPlan/PricingPlanCards/PricingPl
 import CaseStudies from "../Sections/PricingPlan/CaseStudies/CaseStudies";
 import PricingFAQ from "../Sections/PricingPlan/PricingFAQ/PricingFAQ";
 import ComparePlan from "../Sections/PricingPlan/ComparePlan/ComparePlan";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 import Layout from "../Layout";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
 
 const PricingPlan = () => {
   return (
@@ -19,8 +19,8 @@ const PricingPlan = () => {
         <CaseStudies />
         <PricingFAQ />
         <div className="bg-white">
-          <StartMeeting />
-          <FooterThree />
+          <GetApp />
+          <FooterOne />
         </div>
       </div>
     </Layout>

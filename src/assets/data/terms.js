@@ -4,70 +4,70 @@ const data = [
     delay: 200,
     title: "Use of Service",
     description:
-      "<p>You are granted a non-exclusive, non-transferable, revocable license to use the Service for your personal or commercial use. You agree to use the Service only for lawful purposes and in a way that does not infringe on the rights of others. looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus</p>",
+      "<p>CentaHR grants you a limited, non-exclusive, non-transferable, revocable license to access and use the Service for your internal business purposes. You must use the Service in compliance with applicable laws and these Terms.</p><p><strong>Acceptable Use:</strong></p><ul><li>No unlawful, harmful, or infringing activities.</li><li>No reverse engineering, decompiling, or circumventing security or access controls.</li><li>No interference with or disruption of the Service or its infrastructure.</li><li>No uploading of malicious code or content that violates privacy or IP rights.</li></ul><p>Some features may rely on third-party integrations (e.g., email, calendar, payroll or payments). Your use of those services is subject to their own terms.</p>",
   },
   {
     contentId: "two",
     delay: 250,
-    title: "Your account",
+    title: "Your Account",
     description:
-      '<p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material ("Content"). You are responsible for the Content that you post on or through the Service, including its legality, reliability, and appropriatenes.</p> <p>Some parts of the Service are billed on a subscription basis. You will be billed in advance on a recurring subscription that you choose. </p>',
+      "<p>You are responsible for maintaining accurate account information and safeguarding your credentials. You must promptly notify us of any unauthorized access or security incident. You are responsible for all activities that occur under your account.</p><p>Admins may assign roles and permissions to team members. You agree to ensure end users comply with these Terms and any applicable policies.</p>",
   },
   {
     contentId: "three",
     delay: 300,
     title: "Payment and Subscription",
     description:
-      '<p>Some parts of the Service may require payment before access is granted. If you choose to subscribe to any of our paid services, you agree to pay all fees associated with the subscription. Payment may be made through a third-party      payment processor, and you agree to provide accurate payment information.</p> <p><strong>Taxes:</strong> If you wish to purchase any product or service made available through the Service ("<b>Purchase</b>"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your name, address, and payment information.</p> <p><strong>Charges:</strong> Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material.</p>',
+      "<p>Some parts of the Service require a paid subscription. By subscribing, you authorize CentaHR (or our payment processor) to charge all applicable fees using your selected payment method.</p><p><strong>Billing &amp; Renewal:</strong> Plans are billed in advance and renew automatically each billing cycle unless cancelled before renewal. You may change or cancel your plan at any time, effective at the end of the current term.</p><p><strong>Trials &amp; Refunds:</strong> If a free trial is offered, charges begin when the trial ends unless you cancel. Fees are generally non-refundable except where required by law.</p><p><strong>Taxes:</strong> Fees exclude taxes, levies, or duties. You are responsible for applicable taxes, which may be charged where required.</p>",
   },
   {
     contentId: "four",
     delay: 350,
     title: "Intellectual Property",
     description:
-      '<p>All content on the Service, including but not limited to text, graphics, logos, images, and software, is the property of [<b>Your Company</b>] or its licensors and is protected by copyright and other intellectual property laws. You may not copy, reproduce, distribute, or create derivative works based on the content without our prior written consent. </p> <p>(i) Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material ("<b>Content</b>"). <br /> (ii) You are responsible for the Content that you post on or through the Service, including its legality, reliability, and appropriateness. <br /> (iii) For any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services. </p>',
+      "<p>The Service, including all software, content, trademarks, and materials, is owned by CentaHR or its licensors and is protected by intellectual property laws. Except as expressly permitted, you may not copy, modify, distribute, sell, or create derivative works of the Service.</p><p>If you provide feedback or suggestions, you grant CentaHR a worldwide, royalty-free, irrevocable license to use and incorporate them without restriction.</p>",
   },
   {
     contentId: "five",
     delay: 400,
-    title: "User Content",
+    title: "Data Protection & Privacy (GDPR)",
     description:
-      '<p>You are solely responsible for any content you upload, submit, or otherwise make available on the Service ("User Content"). You agree not to post User Content that is illegal, defamatory, or infringes on the rights of others. We reserve the right to remove any User Content that violates these Terms.</p>',
+      '<p>For customer HR data processed in the Service, CentaHR generally acts as a <strong>data processor</strong> and the customer as the <strong>data controller</strong>. Processing is performed only on documented instructions, subject to appropriate technical and organizational measures.</p><p>We implement security controls designed to protect personal data, including access controls, encryption in transit, logging, and regular reviews. Data transfers outside your region may occur subject to appropriate safeguards.</p><p>Your use of the Service is also governed by our <a href="/privacy-policy">Privacy Policy</a> and any applicable Data Processing Agreement (DPA). You are responsible for obtaining necessary notices and consents from your end users and employees.</p>',
   },
   {
     contentId: "six",
     delay: 450,
     title: "Limitation of Liability",
     description:
-      "<p>In no event shall [Your Company] be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with the use of the Service, including but not limited to lost profits, loss of data, or any other damages, whether based on contract, tort, strict liability, or any other theory of liability.</p>",
+      "<p>To the maximum extent permitted by law, CentaHR will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for lost profits, revenues, data, or business, arising out of or related to your use of the Service.</p><p>Our aggregate liability for any claim arising from the Service will not exceed the amounts paid by you to CentaHR for the Service in the twelve (12) months preceding the event giving rise to the claim.</p>",
   },
   {
     contentId: "seven",
     delay: 500,
     title: "Termination",
     description:
-      "<p>We reserve the right to terminate or suspend your access to the Service at any time, with or without cause, without prior notice or liability.</p>",
+      "<p>We may suspend or terminate your access to the Service (in whole or in part) if you breach these Terms, for non-payment, or to address security or legal risks. You may terminate at any time by cancelling your subscription.</p><p>Upon termination, your right to use the Service ceases. We may provide limited-time access for data export where feasible. We may retain certain data as required by law or for legitimate business purposes, consistent with our Privacy Policy.</p>",
   },
   {
     contentId: "eight",
     delay: 550,
     title: "Governing Law",
     description:
-      "<p>These Terms shall be governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law provisions. the content, privacy policies, or practices of any third-party web sites or services. You further acknowledge and agree that [Your Company] shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services </p>",
+      "<p>These Terms are governed by the laws of your applicable contracting entity's jurisdiction (the “Governing Law”), without regard to conflict of law rules. The parties consent to the exclusive jurisdiction and venue of the courts located in the applicable jurisdiction for any dispute not subject to arbitration or where arbitration is not permitted.</p><p>Third-party websites or services linked from the Service are not controlled by CentaHR. We are not responsible for their content, privacy practices, or availability.</p>",
   },
   {
     contentId: "nine",
     delay: 600,
     title: "Changes to Terms",
     description:
-      "<p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>",
+      "<p>We may update these Terms from time to time. Material changes will be notified via the Service or by email where practicable. Changes take effect upon posting unless otherwise stated. Your continued use of the Service after the effective date constitutes acceptance of the updated Terms.</p>",
   },
   {
     contentId: "ten",
     delay: 650,
     title: "Contact Us",
     description:
-      '<p>If you have any questions about these Terms, please contact us at [<a href="/contact-us">Contact page</a>].</p>',
+      '<p>If you have questions about these Terms or the Service, please contact us via the <a href="/contact-us">Contact page</a> or at <a href="mailto:support@centahr.com">support@centahr.com</a>.</p>',
   },
 ];
 

@@ -4,8 +4,8 @@ import ParallaxComponent from "../Components/Peralax/ParallaxComponent";
 import Breadcumbs from "../Components/Breadcumbs/Breadcumbs";
 import PeopleUsing from "../Sections/AboutUs/PeopleUsing/PeopleUsing";
 import AboutUsContent from "../Sections/AboutUs/AboutUsContent/AboutUsContent";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const AboutUs = () => {
   return (
@@ -15,8 +15,8 @@ const AboutUs = () => {
       <PeopleUsing />
       <ParallaxComponent />
       <AboutUsContent />
-      <StartMeeting />
-      <FooterThree />
+      <GetApp />
+      <FooterOne />
     </Layout>
   );
 };

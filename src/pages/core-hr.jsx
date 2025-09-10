@@ -6,9 +6,9 @@ import UsabilitySlider from "../Sections/Home/UsabilitySlider/UsabilitySlider";
 import HomeOneMarketingSection from "../Sections/Home/HomeMarketing/HomeMarketingSection";
 import HomeIntegrate from "../Sections/Home/HomeIntegrate/HomeIntegrate";
 import FaqHome from "../Sections/Home/FaqHome/FaqHome";
-import FooterThree from "../Sections/Footer/FooterThree";
 import Offering from "../Sections/Accounting/Offering/Offering";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 const CoreHR = () => {
   return (
@@ -22,8 +22,8 @@ const CoreHR = () => {
         <HomeIntegrate />
         <Offering />
         <FaqHome />
-        <StartMeeting />
-        <FooterThree />
+        <GetApp />
+        <FooterOne />
       </div>
     </Layout>
   );

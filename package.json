@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "serve -s dist -l $PORT",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -40,6 +41,7 @@
     "react-sticky-box": "^2.0.5",
     "react-tabs": "^6.0.2",
     "scroll-out": "^2.2.12",
+    "serve": "^14.2.5",
     "slick": "^1.12.2",
     "slick-carousel": "^1.8.1",
     "splitting": "^1.1.0",

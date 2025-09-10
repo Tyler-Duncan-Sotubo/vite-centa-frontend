@@ -9,8 +9,10 @@ const data = [
     url: "/pricing-plan",
   },
   {
-    title: "Blogs",
-    url: "/blog",
+    title: "Resources",
+    url: "#",
+    hasMegaMenu: true,
+    isResourceMenu: true,
   },
   {
     title: "Contact Us",

@@ -1,11 +1,11 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import FooterThree from "../Sections/Footer/FooterThree";
-import StartMeeting from "../Sections/TeamCollaboration/StartMeeting/StartMeeting";
 import Breadcumbs from "../Components/Breadcumbs/Breadcumbs";
 import BusinessFaq from "../Sections/Business/BusinessFaq/BusinessFaq";
 import SassTwoChoos from "../Sections/SassLandingTwo/SassTwoChoose/SassTwoChoos";
-import WhyChoose from "../Sections/CustomerService/WhyChoose/WhyChoose";
+import WhyChoose from "../Sections/Attendance/WhyChoose/WhyChoose";
+import FooterOne from "../Sections/Footer/FooterOne";
+import GetApp from "../Sections/GetApp/GetApp";
 
 export default function WhyUs() {
   return (
@@ -15,8 +15,8 @@ export default function WhyUs() {
       <WhyChoose />
       <SassTwoChoos />
       <BusinessFaq />
-      <StartMeeting />
-      <FooterThree />
+      <GetApp />
+      <FooterOne />
     </Layout>
   );
 }
