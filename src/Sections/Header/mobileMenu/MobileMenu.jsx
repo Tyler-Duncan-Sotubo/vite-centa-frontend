@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Data from "../../../assets/data/header/mobileMenu";
 import MobileMenuStyleWrapper from "./Menu.style";
 
 //logo images
-import LogoImg2 from "../../../assets/images/logo/logo-dark.svg";
+import LogoImg2 from "../../../assets/images/logo/logo.svg";
 
 const MobileMenu = () => {
   const [openSubMenuIndex, setOpenSubMenuIndex] = useState(null);
