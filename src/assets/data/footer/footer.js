@@ -1,6 +1,6 @@
 const Data = [
   {
-    title: "Products 🔥",
+    title: "Products",
     menuList: [
       {
         title: "Core HR",
@@ -25,7 +25,7 @@ const Data = [
     ],
   },
   {
-    title: "Why Choose 🌟",
+    title: "Why Choose",
     menuList: [
       {
         title: "Customers",
@@ -42,7 +42,7 @@ const Data = [
     ],
   },
   {
-    title: "Resources ❇️",
+    title: "Resources",
     menuList: [
       {
         title: "Latest Blog",
@@ -63,7 +63,7 @@ const Data = [
     ],
   },
   {
-    title: "Company 💎",
+    title: "Company",
     menuList: [
       {
         title: "About",
