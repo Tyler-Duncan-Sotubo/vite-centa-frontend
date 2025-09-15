@@ -13,7 +13,6 @@ const BlogItem = ({
   delay,
   slug,
 }) => {
-  console.log(slug);
   return (
     <ScrollAnimate delay={delay}>
       <BlogItemStyleWrapper>
