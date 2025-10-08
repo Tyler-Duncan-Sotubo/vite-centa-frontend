@@ -5,7 +5,7 @@ const Data = [
   {
     column: 1,
     menuList: [
-      { title: "Blog", dataMenu: "sass2", url: "/blog/" },
+      { title: "Blog", dataMenu: "sass2", url: "https://centahr.com/blog/" },
       {
         title: "PAYE Spreadsheet",
         dataMenu: "sass2",
