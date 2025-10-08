@@ -46,7 +46,7 @@ const Data = [
     menuList: [
       {
         title: "Latest Blog",
-        url: "/blog",
+        url: "/blog/",
       },
       {
         title: "Supports",
