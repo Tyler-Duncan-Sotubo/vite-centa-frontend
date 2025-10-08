@@ -18,7 +18,6 @@ import LogoDefiImg from "../../assets/images/logo/defi-logo.svg";
 import LogoFinanceImg from "../../assets/images/logo/finance-logo.svg";
 import LogoFinanceDarkImg from "../../assets/images/logo/logo6-dark.png";
 import LogoAccountImg from "../../assets/images/logo/logo-8.svg";
-import FeaturedNav from "./FeaturedNav";
 
 //others images
 import CallImg from "../../assets/images/corporate/call-outgoing.svg";
@@ -249,7 +248,7 @@ const Header = ({ variant, ...props }) => {
                     {/* main menu */}
                     <ul className="navbar-nav main-menu">
                       {/* Featured item rendered independently */}
-                      <FeaturedNav />
+                      {/* <FeaturedNav /> */}
                       {Data?.map((menuItem, i) => (
                         <li
                           key={i}

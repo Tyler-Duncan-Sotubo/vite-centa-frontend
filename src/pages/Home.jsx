@@ -6,7 +6,6 @@ import SassTwoChoos from "../Sections/SassLandingTwo/SassTwoChoose/SassTwoChoos"
 import BrandSlider from "../Components/BrandSlider/BrandSlider";
 import Seamless from "../Sections/SassLandingTwo/Seamless/Seamless";
 import HappyCustomers from "../Sections/SassLanding/HappyCustomers/HappyCustomers";
-import HomePricing from "../Sections/Home/HomePricing/HomePricing";
 import FooterOne from "../Sections/Footer/FooterOne";
 import GetApp from "../Sections/GetApp/GetApp";
 
@@ -22,8 +21,6 @@ const Home = () => {
           sliderClass="sass"
           titleClass="brands-section-title brands-section-title-index2"
         />
-        {/* <SassVideo /> */}
-        <HomePricing />
         <Seamless />
         <HappyCustomers />
         <GetApp />
