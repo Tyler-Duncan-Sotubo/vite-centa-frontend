@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Data from "../../assets/data/header/resourceMenu";
-import { NavLink } from "react-router-dom";
 
 const ResourceMenu = ({ megaMenuClass }) => {
   useEffect(() => {
@@ -71,9 +70,7 @@ const ResourceMenu = ({ megaMenuClass }) => {
                         {menuItem.title}
                       </a>
                     ) : (
-                      <NavLink className={linkClass} to={menuItem.url}>
-                        {menuItem.title}
-                      </NavLink>
+                      <a href={menuItem.url}>{menuItem.title}</a>
                     )}
                     {menuItem.tag && (
                       <div className={`tag ${menuItem.tag}`}>
