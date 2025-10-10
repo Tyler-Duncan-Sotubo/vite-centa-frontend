@@ -12,10 +12,10 @@ const data = [
     title: "Resources",
     url: "#",
     subMenus: [
-      {
-        title: "Help Center",
-        url: "https://support.centahr.com/",
-      },
+      // {
+      //   title: "Help Center",
+      //   url: "https://support.centahr.com/",
+      // },
       {
         title: "Blog",
         url: "/blog/",
