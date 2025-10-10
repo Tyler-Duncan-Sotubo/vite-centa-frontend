@@ -298,7 +298,7 @@ const Header = ({ variant, ...props }) => {
                                     >
                                       <a
                                         className="dropdown-item"
-                                        to={subMenuItem.url}
+                                        href={subMenuItem.url}
                                       >
                                         {subMenuItem.title}
                                       </a>
