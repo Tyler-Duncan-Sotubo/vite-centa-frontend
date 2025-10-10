@@ -296,12 +296,12 @@ const Header = ({ variant, ...props }) => {
                                           : ""
                                       }
                                     >
-                                      <NavLink
+                                      <a
                                         className="dropdown-item"
                                         to={subMenuItem.url}
                                       >
                                         {subMenuItem.title}
-                                      </NavLink>
+                                      </a>
 
                                       {subMenuItem.subMenuChilds?.length >
                                         0 && (
