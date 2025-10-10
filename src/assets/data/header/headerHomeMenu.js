@@ -11,8 +11,20 @@ const data = [
   {
     title: "Resources",
     url: "#",
-    hasMegaMenu: true,
-    isResourceMenu: true,
+    subMenus: [
+      {
+        title: "Help Center",
+        url: "https://support.centahr.com/",
+      },
+      {
+        title: "Blog",
+        url: "/blog/",
+      },
+      {
+        title: "Pricing Plan",
+        url: "/pricing-plan",
+      },
+    ],
   },
   {
     title: "Contact Us",
