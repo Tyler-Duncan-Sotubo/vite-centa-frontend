@@ -316,7 +316,7 @@ const Header = ({ variant, ...props }) => {
                                                     {subMenuChild.title}
                                                   </NavLink>
                                                 </li>
-                                              )
+                                              ),
                                             )}
                                           </ul>
                                         </div>
@@ -343,7 +343,7 @@ const Header = ({ variant, ...props }) => {
                         variant != "finance" && (
                           <li>
                             <NavLink
-                              to="https://app.centahr.com/auth/login"
+                              to="https://app.centahr.com/login"
                               className={`${variant}`}
                               target="_blank"
                             >
@@ -381,7 +381,7 @@ const Header = ({ variant, ...props }) => {
                       {variant === "sass" && (
                         <li>
                           <NavLink
-                            to="https://app.centahr.com/auth/register"
+                            to="https://app.centahr.com/signup"
                             className="bg-white-btn"
                             target="_blank"
                           >
@@ -550,7 +550,7 @@ const Header = ({ variant, ...props }) => {
                       {variant === "main-header" && (
                         <li>
                           <NavLink
-                            to="https://app.centahr.com/auth/register"
+                            to="https://app.centahr.com/signup"
                             className="template-btn primary-bg"
                             target="_blank"
                           >

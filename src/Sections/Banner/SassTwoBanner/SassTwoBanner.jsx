@@ -33,14 +33,14 @@ const SassTwoBanner = () => {
 
     cryptoBannerImg.style.setProperty(
       "transform",
-      `translateY(${animationValue}px)`
+      `translateY(${animationValue}px)`,
     );
   };
 
   useEffect(() => {
     const handleScroll = () => {
       var cryptoBannerSection = document.querySelector(
-        ".sass-landing-hero-section"
+        ".sass-landing-hero-section",
       );
 
       const y = window.scrollY;
@@ -88,7 +88,7 @@ const SassTwoBanner = () => {
                   </p>
                   <div className="sass-banner-btn">
                     <NavLink
-                      to={"https://app.centahr.com/auth/register"}
+                      to={"https://app.centahr.com/signup"}
                       className="sass-start-free-btn"
                       target="_blank"
                     >

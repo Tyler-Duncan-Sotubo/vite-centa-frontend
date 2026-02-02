@@ -11,7 +11,7 @@ export const pricingPlans = [
     icon: Star1,
     description: "Core HR & payroll for small teams",
     actionTitle: "Start for Free",
-    actionLink: "https://app.centahr.com/auth/register",
+    actionLink: "https://app.centahr.com/signup",
     plans: {
       monthly: {
         price: "Starting ₦500/employee",
@@ -45,7 +45,7 @@ export const pricingPlans = [
     icon: Star2,
     description: "Advanced HR & payroll automation",
     actionTitle: "Start Free Trial",
-    actionLink: "https://app.centahr.com/auth/register",
+    actionLink: "https://app.centahr.com/signup",
     plans: {
       monthly: {
         price: "Starting ₦1,200/employee",
@@ -79,7 +79,7 @@ export const pricingPlans = [
     icon: Star3,
     description: "For larger organizations with complex needs",
     actionTitle: "Contact Sales",
-    actionLink: "https://app.centahr.com/auth/register",
+    actionLink: "https://app.centahr.com/signup",
     plans: {
       monthly: {
         price: "Custom pricing",

@@ -33,7 +33,7 @@ const BusinessBanner = () => {
                 </div>
                 <div className="hero-content-button v4 mb-30">
                   <NavLink
-                    to="https://app.centahr.com/auth/register"
+                    to="https://app.centahr.com/signup"
                     className="bg-blue-btn"
                   >
                     <span className="btn-inner">
