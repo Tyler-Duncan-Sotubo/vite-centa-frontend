@@ -44,7 +44,7 @@ const CustomerServiceBanner = () => {
                 </div>
                 <div className="hero-content-button mb-30">
                   <a
-                    href="https://app.centahr.com/signup"
+                    href="https://calendly.com/centapayroll/book-a-demo"
                     className="bg-blue-btn"
                   >
                     <span className="btn-inner">

@@ -88,7 +88,7 @@ const SassTwoBanner = () => {
                   </p>
                   <div className="sass-banner-btn">
                     <NavLink
-                      to={"https://app.centahr.com/signup"}
+                      to={"https://calendly.com/centapayroll/book-a-demo"}
                       className="sass-start-free-btn"
                       target="_blank"
                     >

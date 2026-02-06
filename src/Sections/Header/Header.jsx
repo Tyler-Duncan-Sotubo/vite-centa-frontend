@@ -381,7 +381,7 @@ const Header = ({ variant, ...props }) => {
                       {variant === "sass" && (
                         <li>
                           <NavLink
-                            to="https://app.centahr.com/signup"
+                            to="https://calendly.com/centapayroll/book-a-demo"
                             className="bg-white-btn"
                             target="_blank"
                           >
@@ -550,7 +550,7 @@ const Header = ({ variant, ...props }) => {
                       {variant === "main-header" && (
                         <li>
                           <NavLink
-                            to="https://app.centahr.com/signup"
+                            to="https://calendly.com/centapayroll/book-a-demo"
                             className="template-btn primary-bg"
                             target="_blank"
                           >
