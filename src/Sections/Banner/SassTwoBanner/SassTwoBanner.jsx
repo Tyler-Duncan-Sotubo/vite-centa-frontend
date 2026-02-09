@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import SassTwoBannerStyle from "./SassTwoBanner.style";
 
 import sassLandingBg from "../../../assets/images/sass2/sass-landing-bg.png";
@@ -88,6 +88,17 @@ const SassTwoBanner = () => {
                   </p>
                   <div className="sass-banner-btn">
                     <NavLink
+                      to={"https://app.centahr.com/login"}
+                      target="_blank"
+                    >
+                      <span className="btn-inner">
+                        <span className="btn-hover-text text-white m-2 text-lg-end">
+                          Sign In
+                        </span>
+                        <img src={RightArrow} alt="icon" />
+                      </span>
+                    </NavLink>
+                    <NavLink
                       to={"https://calendly.com/centapayroll/book-a-demo"}
                       className="sass-start-free-btn"
                       target="_blank"
@@ -96,16 +107,6 @@ const SassTwoBanner = () => {
                         <span className="btn-normal-text">Sign up Free</span>
                         <span className="btn-hover-text">Sign up Free</span>
                       </span>
-                    </NavLink>
-                    <NavLink
-                      href="https://calendly.com/centapayroll/book-a-demo"
-                      className="view-demo-btn"
-                      target="_blank"
-                    >
-                      <span className="btn-inner">
-                        <span className="btn-hover-text">Book A Demo</span>
-                      </span>
-                      <img src={RightArrow} alt="icon" />
                     </NavLink>
                   </div>
                   <ul className="hero-content-list">
